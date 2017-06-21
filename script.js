@@ -6,8 +6,6 @@ let progress = document.querySelector('.progress__bar');
 let resetButton = document.querySelector('.reset-button');
 let checkBoxesLength = checkBoxes.length;
 
-// checkBoxesCount.textContent = checkBoxesLength;
-
 function updateStorage(element) {
   checkBoxValues[element.id] = element.checked;
   localStorage.setItem('checkBoxValues', JSON.stringify(checkBoxValues));

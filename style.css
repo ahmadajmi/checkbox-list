@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 5em;
+  margin: 0 auto;
+  max-width: 600px;
+  font-weight: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #FFF;
+}
+
+hr {
+  height: 1px;
+  margin: 32px 0;
+  border: 0;
+  display: block;
+  background-color: #ECF0F1;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count {
+  padding: 2em;
+  text-align: center;
+  color: #0000ee;
+  font-size: 2em;
+  background: #eef3ff;
+  width: 50%;
+}
+
+label {
+  display: block;
+}
+
+input[type='checkbox'] {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.progress__bar {
+  background: #0000ee;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}

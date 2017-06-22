@@ -27,16 +27,15 @@ hr {
 
 .counter {
   display: flex;
-  justify-content: space-between;
 }
 
 .count {
   padding: 2em;
   text-align: center;
-  color: #0000ee;
+  color: #0000EE;
   font-size: 2em;
   background: #eef3ff;
-  width: 50%;
+  flex-basis: 50%;
 }
 
 label {
@@ -44,12 +43,12 @@ label {
 }
 
 input[type='checkbox'] {
-  vertical-align: bottom;
   margin-right: 10px;
+  vertical-align: bottom;
 }
 
-.progress__bar {
-  background: #0000ee;
+.progress-bar {
+  background: #0000EE;
   height: 2px;
   transform: scaleX(0);
   transform-origin: left;
